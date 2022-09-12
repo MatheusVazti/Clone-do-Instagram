@@ -3,3 +3,115 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:#FAFAFA;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex
+   
+  
+}
+
+.imagem-principal{
+    width: 450px;
+}
+
+.container-whidt{
+    width:350px;
+
+}
+.img-insta{
+    margin-bottom: 10px;
+
+}
+#caixa-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    padding: 30px 30px 30px 20px;
+}
+
+input{ 
+    height: 36px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    padding-left: 3px;
+    margin-top: 6px;
+    color: #262626;
+}
+button{
+    background: #0095f6;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 17px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.login-faceboock{
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 18px 0;
+    cursor: pointer;
+    text-decoration: none
+
+}
+.esqueceu-senha{
+    color: #385185;
+    text-align: center;
+    cursor:pointer;
+    text-decoration: none
+}
+.container-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
+    border: 1px solid #dbdbdb;
+
+
+}
+.link-cadastro{
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+.paragrafo-conta{
+    font-size: 17px;
+
+}
+.link-cadastro{
+    font-size:17px ;
+}
+.paragrafo{
+   
+    text-align: center;
+    padding:3px 0 20px 0;
+}
+.container-app{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.image-logo{
+    width: 140px;
+    
+}
+
+
+
+
+
+
