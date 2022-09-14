@@ -18,6 +18,16 @@ body{
 
 .imagem-principal{
     width: 450px;
+    position: relative;
+}
+.img-celular{
+    height: 540px;
+    width:256px;
+    position: absolute;
+    left: 427px;
+    top: 20px;
+    transition: opacity 1s ease-in-out;
+    
 }
 
 .container-whidt{
